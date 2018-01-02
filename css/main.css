@@ -5,3 +5,15 @@ h1, h2, h3 {
 p {
   font-family: 'Merriweather', serif;
 }
+
+h1 > a {
+  list-style: none;
+  text-decoration: none;
+
+
+@media only screen and (min-width: 25em) {
+
+  h1 {
+    text-align: left;
+  }
+}
