@@ -6,6 +6,40 @@ p {
   font-family: 'Merriweather', serif;
 }
 
+h1 {
+  color: #742c7c;
+  text-align: center;
+}
+
 h1 > a {
   list-style: none;
   text-decoration: none;
+}
+
+h2, h3 {
+  color: #742c7c;
+}
+
+a {
+  padding: 0 1rem;
+}
+
+footer {
+  color: #bcacc4;
+}
+
+.banner-image{
+  overflow: hidden;
+}
+
+.btn {
+  font-family: 'Roboto', sans-serif;
+  color: #441c54;
+  background-color: #bcacc4;
+  border: none;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #441c54;
+}
