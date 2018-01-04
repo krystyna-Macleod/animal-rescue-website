@@ -42,6 +42,15 @@ textarea {
   border-color: #f2f2f2;
 }
 
+nav li  a{
+  border-radius: 3px solid #bcacc4;
+}
+
+nav li:hover {
+  border-radius: 3px solid #dcdccc;
+  background-color: #dcdccc;
+}
+
 .skip-links a {
   padding: .5em .75em;
   position: absolute;
