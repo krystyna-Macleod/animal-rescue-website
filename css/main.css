@@ -1,9 +1,9 @@
 h1, h2, h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 p {
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
 }
 
 h1 {
@@ -63,7 +63,7 @@ textarea {
   background-color: #bcacc4;
 }
 
-.banner-image{
+.banner-image {
   overflow: hidden;
 }
 
