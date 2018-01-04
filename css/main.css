@@ -21,7 +21,9 @@ h2, h3 {
 }
 
 a {
-  padding: 0 1rem;
+  padding: 0 .5rem;
+  color: #fff;
+  text-decoration: none;
 }
 
 footer {
@@ -48,13 +50,14 @@ footer {
   background-color: #441c54;
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 25em) {
 
   h1 {
     text-align: left;
   }
 
-  nav {
+  nav ul {
     text-align: left;
   }
+
 }
