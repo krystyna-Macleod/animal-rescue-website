@@ -1,14 +1,20 @@
 h1, h2, h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 p {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 h1 {
   color: #742c7c;
   text-align: center;
+}
+
+a {
+  padding: 0 .5rem;
+  color: #441c54;
+  text-decoration: none;
 }
 
 h1 > a {
@@ -18,12 +24,6 @@ h1 > a {
 
 h2, h3 {
   color: #742c7c;
-}
-
-a {
-  padding: 0 .5rem;
-  color: #441c54;
-  text-decoration: none;
 }
 
 footer {
