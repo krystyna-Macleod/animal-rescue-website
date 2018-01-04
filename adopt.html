@@ -16,7 +16,7 @@
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#nav">Jump to nav content</a></li>
     <li><a href="#about">Jump to about content</a></li>
-    <li><a href="#more-about">Jump to more content</a></li>
+    <li><a href="#search">Jump to search</a></li>
   </ul>
 
   <header class="banner" id="banner" role="banner" tabindex="0">
@@ -28,16 +28,145 @@
         <nav id="nav" role="navigation" tabindex="0">
           <ul class="mega list-group-inline push-0 text-center">
             <li><a href="index.html">Home</a></li>
-            <li><a href="adopt.html">Adopt a Rescue</a></li>
+            <li><a href="rescues.html">Available Rescues</a></li>
           </ul>
         </nav>
       </div>
     </div>
   </header>
 
-  <form>
+  <main id="main" role="main" tabindex="0">
 
-  </form>
+    <section>
+      <div>
+
+        <div class="embed embed-3by2 push banner-image">
+          <img class="embed-item img-flex" src="images/banner.jpg" alt="#" aria-details="cat-laying-down">
+        </div>
+
+        <div class="gutter-1-2 max-length" id="about" role="complementary" tabindex="0">
+
+          <div>
+            <h2 class="zetta push-1-2">Available Cats</h2>
+
+            <p class="milli">For more information about our adoption process go to our adoption page.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="max-length island">
+
+      <form method="POST" action="https://formspree.io/krys.a.dy20@gmail.com" id="search" role="search">
+
+          <fieldset class="push">
+            <legend class="italic mega">Adoption Form</legend>
+          </fieldset>
+
+          <div class="push name">
+            <label for="name">Name</label>
+            <input id="name" name="name">
+          </div>
+
+          <div class="push age">
+            <label for="age">Age</label>
+            <input id="age" name="name">
+          </div>
+
+          <div class="push email">
+            <label for="email">Email</label>
+            <input id="email" type="email">
+          </div>
+
+          <div class="push phys">
+            <label for="subject">Choose Which Cat</label>
+            <select id="subject" name="name">
+              <option>Mojio</option>
+              <option>Grey</option>
+              <option>Mits</option>
+              <option>Queen</option>
+            </select>
+          </div>
+
+          <div class="push">
+            <label for="details">Address</label>
+            <textarea id="details" name="name"></textarea>
+          </div>
+
+          <div class="push">
+            <label for="question">What would you like to know about this cat?</label>
+            <textarea id="question" name="name"></textarea>
+          </div>
+
+          <div class="grid">
+            <div class="unit xs-1 s-1 m-1-2 l-1-2">
+              <h2 class="mega push-1-4 pad-t-1-2 pad-b-1-4">Do you live in an apartment building?</h2>
+
+              <div class="push-1-4 push-r">
+                <input type="radio" id="yes">
+                <label for="yes">Yes</label>
+              </div>
+
+              <div class="push">
+                <input type="radio" id="no">
+                <label for="no">No</label>
+              </div>
+
+              <h2 class="mega push-1-4 pad-t-1-2 pad-b-1-4">Do you live in an apartment building?</h2>
+
+              <div class="push-1-4 push-r">
+                <input type="radio" id="yes">
+                <label for="yes">Yes</label>
+              </div>
+
+              <div class="push">
+                <input type="radio" id="no">
+                <label for="no">No</label>
+              </div>
+            </div>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2">
+              <h2 class="mega push-1-4 pad-t-1-2 pad-b-1-4">Do you have children?</h2>
+
+              <div class="push-1-4 push-r">
+                <input type="radio" id="yes">
+                <label for="yes">Yes</label>
+              </div>
+
+              <div class="push">
+                <input type="radio" id="no">
+                <label for="no">No</label>
+              </div>
+
+              <h2 class="mega push-1-4 pad-t-1-2 pad-b-1-4">Do you have another cat?</h2>
+
+              <div class="push-1-4 push-r">
+                <input type="radio" id="yes">
+                <label for="yes">Yes</label>
+              </div>
+
+              <div class="push">
+                <input type="radio" id="no">
+                <label for="no">No</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="push center-text">
+            <button type="submit">Send Now</button>
+          </div>
+
+        </form>
+
+      </section>
+
+  </main>
+
+  <footer class="text-center pad-t-1-2" id="footer" role="contentinfo" tabindex="0">
+
+    <p>Street Cats ©</p>
+
+  </footer>
 
 </body>
 </html>
